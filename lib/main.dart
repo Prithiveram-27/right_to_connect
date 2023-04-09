@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'Screens/home_screen.dart';
 import 'Screens/login_screen.dart';
 
 void main() {
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const LoginScreen(),
+      home: const HomeScreen(),
     );
   }
 }
